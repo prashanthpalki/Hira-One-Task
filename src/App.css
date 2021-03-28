@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+.App{
+    background-color: whitesmoke;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+    padding: 40px !important;
+    width: 30% !important;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.5); 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.loginTitle{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.facebookLogo{
+    margin-top: 5%;
+    color : rgb(102, 102, 236);
+    font-family :Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
+.loginBtn{
+    width: 100%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.forgotLink{
+    margin-left: 120px;
+}
+.createAccountBtn{
+    margin-left: 60px;
+    width: 70%;
+}
+/* Second Page css starts */
+.header{
+    display: flex; 
+    padding: 10px !important;
+    justify-content: space-between;
+    background-color: white;
+}
+.rightHeader{
+    display: flex;
+}
+.findAccountTitle{
+    font-size: 20px;
+}
+.headerLogo{
+    color : rgb(102, 102, 236);
+    font-family :Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+.headerForgotLink,.headerLoginBtn,.headerEmail,.pass{
+    margin-left: 30px !important;
+}
+.headerForgotLink{
+    margin-right: 30px !important;
+}
+.forgotBtns{
+    float: right;
+}
+.email{
+    padding: 15px !important;
 }
